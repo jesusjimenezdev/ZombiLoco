@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA25E87A207BB45A0095B9B8 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA25E871207BB4590095B9B8 /* sprites.atlas */; };
+		EA25E87B207BB45A0095B9B8 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25E873207BB45A0095B9B8 /* background1.png */; };
+		EA25E87C207BB45A0095B9B8 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25E874207BB45A0095B9B8 /* background2.png */; };
+		EA25E87D207BB45A0095B9B8 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25E875207BB45A0095B9B8 /* heart.png */; };
+		EA25E87E207BB45A0095B9B8 /* infiniteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25E876207BB45A0095B9B8 /* infiniteButton.png */; };
+		EA25E87F207BB45A0095B9B8 /* MainMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25E877207BB45A0095B9B8 /* MainMenu.png */; };
+		EA25E880207BB45A0095B9B8 /* YouLose.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25E878207BB45A0095B9B8 /* YouLose.png */; };
+		EA25E881207BB45A0095B9B8 /* YouWin.png in Resources */ = {isa = PBXBuildFile; fileRef = EA25E879207BB45A0095B9B8 /* YouWin.png */; };
 		EAE523C8207B4D1900C3397E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE523C7207B4D1900C3397E /* AppDelegate.swift */; };
 		EAE523CA207B4D1900C3397E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EAE523C9207B4D1900C3397E /* GameScene.sks */; };
 		EAE523CC207B4D1900C3397E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EAE523CB207B4D1900C3397E /* Actions.sks */; };
@@ -18,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA25E871207BB4590095B9B8 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		EA25E873207BB45A0095B9B8 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		EA25E874207BB45A0095B9B8 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		EA25E875207BB45A0095B9B8 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		EA25E876207BB45A0095B9B8 /* infiniteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infiniteButton.png; sourceTree = "<group>"; };
+		EA25E877207BB45A0095B9B8 /* MainMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainMenu.png; sourceTree = "<group>"; };
+		EA25E878207BB45A0095B9B8 /* YouLose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouLose.png; sourceTree = "<group>"; };
+		EA25E879207BB45A0095B9B8 /* YouWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YouWin.png; sourceTree = "<group>"; };
 		EAE523C4207B4D1900C3397E /* ZombiLoco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZombiLoco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE523C7207B4D1900C3397E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAE523C9207B4D1900C3397E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -41,6 +57,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA25E872207BB45A0095B9B8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EA25E873207BB45A0095B9B8 /* background1.png */,
+				EA25E874207BB45A0095B9B8 /* background2.png */,
+				EA25E875207BB45A0095B9B8 /* heart.png */,
+				EA25E876207BB45A0095B9B8 /* infiniteButton.png */,
+				EA25E877207BB45A0095B9B8 /* MainMenu.png */,
+				EA25E878207BB45A0095B9B8 /* YouLose.png */,
+				EA25E879207BB45A0095B9B8 /* YouWin.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		EAE523BB207B4D1900C3397E = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +97,8 @@
 				EAE523CF207B4D1900C3397E /* GameViewController.swift */,
 				EAE523D1207B4D1900C3397E /* Main.storyboard */,
 				EAE523D4207B4D1A00C3397E /* Assets.xcassets */,
+				EA25E872207BB45A0095B9B8 /* Images */,
+				EA25E871207BB4590095B9B8 /* sprites.atlas */,
 				EAE523D6207B4D1A00C3397E /* LaunchScreen.storyboard */,
 				EAE523D9207B4D1A00C3397E /* Info.plist */,
 			);
@@ -132,9 +164,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAE523D3207B4D1900C3397E /* Main.storyboard in Resources */,
+				EA25E87D207BB45A0095B9B8 /* heart.png in Resources */,
+				EA25E880207BB45A0095B9B8 /* YouLose.png in Resources */,
 				EAE523CA207B4D1900C3397E /* GameScene.sks in Resources */,
+				EA25E87E207BB45A0095B9B8 /* infiniteButton.png in Resources */,
 				EAE523D5207B4D1A00C3397E /* Assets.xcassets in Resources */,
+				EA25E87F207BB45A0095B9B8 /* MainMenu.png in Resources */,
 				EAE523D8207B4D1A00C3397E /* LaunchScreen.storyboard in Resources */,
+				EA25E881207BB45A0095B9B8 /* YouWin.png in Resources */,
+				EA25E87C207BB45A0095B9B8 /* background2.png in Resources */,
+				EA25E87A207BB45A0095B9B8 /* sprites.atlas in Resources */,
+				EA25E87B207BB45A0095B9B8 /* background1.png in Resources */,
 				EAE523CC207B4D1900C3397E /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

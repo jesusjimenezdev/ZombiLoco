@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  ZombiLoco
-//
-//  Created by jesus on 9/4/18.
-//  Copyright © 2018 com.codelapp. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
